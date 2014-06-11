@@ -18,13 +18,13 @@ var odd-split = odd.split("   ");
 // "here i added a concatination using the three variables above "
 var togeather = fullname.concat('even','odd');
 
- var fullname = 'joshua paul daniels';
+
  // "here i recorded the length of the string defined above"
  var length-of-name = fullname.length;
 
 var even ='2 4 6 8 10';
 // "here i recorded the length of the string defined above"
-var length-of-name = even.length
+var length-of-even = even.length
 
 var odd = '1 3 5 7 9';
 // "here i recorded the length of the string defined above"
@@ -44,6 +44,9 @@ var reversed = soda.reverse();
 // "here i removed 1 elements from index 2, and inserted "get""
 var spliced = soda.splice(2, 1, "get");
 // "here i made my function to do all of the above"
-var hw=function()
+var hw=function("favoritecolor","sonsname","wifesname","car","pet","fullname","even","odd","fullname-split","even-split","odd-split","togeather","length-of-name","length-of-odd","length-of-even","soda","pushed-soda","popped","joined","reversed","spliced"){
+
+console.log('hw');
+}
 
 	
