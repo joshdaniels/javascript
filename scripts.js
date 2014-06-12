@@ -44,7 +44,7 @@ var reversed = soda.reverse();
 // "here i removed 1 elements from index 2, and inserted "get""
 var spliced = soda.splice(2, 1, "get");
 // "here i made my function to do all of the above"
-var hw=function("favoritecolor","sonsname","wifesname","car","pet","fullname","even","odd","fullname-split","even-split","odd-split","togeather","length-of-name","length-of-odd","length-of-even","soda","pushed-soda","popped","joined","reversed","spliced"){
+var hw = function("favoritecolor","sonsname","wifesname","car","pet","fullname","even","odd","fullname-split","even-split","odd-split","togeather","length-of-name","length-of-odd","length-of-even","soda","pushed-soda","popped","joined","reversed","spliced"){
 
 console.log('hw');
 }
