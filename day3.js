@@ -1065,34 +1065,49 @@ return c + 1;
 });
 
 
-var average =trunc(total/counter);
-	console.log("the"," ","average"," ", "price", " ", "is", " ","$"+ (average));
-
-
-var now = 
-// option b.
-// forEach
-
-var counter
+var average =(total/counter);
+	console.log("the", "average", "price", "is", "$"+ (average));
 
 
 
+// Question 2
+
+var currency_a = items.map(function(a){
+return a.currency_code;
+});
+
+var currency_b = items.map(function(a){
+return a.price;
+});
+
+var currency_c = items.map(function(a){
+return a.title;
+
+});
 
 
 
+	}
+	
+});
+
+var curr = items.map(function(a){
+	return [a.currency_code, a.price, a.title];
+});
 
 
+items.forEach(function(a){
+  if(a.currency_code == "GBP"){
+    console.log(a.title,"costs", '\u00A3', a.price);
+  }
+});
 
 
-
-
-
-
-
-
-
-
-
+items.forEach(function(a){
+  if(items.some (a.materials) == "wood"){
+    console.log(a.title,"costs", '\u00A3', a.price);
+  }
+});
 
 
 
