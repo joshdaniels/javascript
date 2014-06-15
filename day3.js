@@ -1072,24 +1072,24 @@ var average =(total/counter);
 
 // Question 2
 
-var currency_a = items.map(function(a){
-return a.currency_code;
-});
+// var currency_a = items.map(function(a){
+// return a.currency_code;
+// });
 
-var currency_b = items.map(function(a){
-return a.price;
-});
+// var currency_b = items.map(function(a){
+// return a.price;
+// });
 
-var currency_c = items.map(function(a){
-return a.title;
+// var currency_c = items.map(function(a){
+// return a.title;
 
-});
+// });
 
 
 
-	}
+// 	}
 	
-});
+// });
 
 var curr = items.map(function(a){
 	return [a.currency_code, a.price, a.title];
@@ -1103,14 +1103,44 @@ items.forEach(function(a){
 });
 
 
-items.forEach(function(a){
-  if(items.some (a.materials) == "wood"){
-    console.log(a.title,"costs", '\u00A3', a.price);
-  }
+var clown = items.map(function(a){
+  return a.materials;
+});
+  
+
+  var start = clown.forEach(function(a){
+ 
+    // a = materials[]
+
+    for(i = 0; i < a.length; i ++)
+    {
+      if(a[i] == "wood"){
+     
+      return a[i];
+
+      }
+    }
+
+     
+  
+  
 });
 
 
 
+
+
+
+
+
+
+
+
+clown.indexOf("wood"[0,1,2,3]){
+
+return a;
+
+});
 
 
 
