@@ -1046,7 +1046,7 @@ var items = [{
   "has_variations": false,
   "used_manufacturer": false
 }]
-
+// using .map and .reduce for the first question.
 
 var values =items.map(function(a){
 return a.price;
@@ -1090,7 +1090,7 @@ var average =(total/counter);
 // 	}
 	
 // });
-
+// used .map and for each for the second question
 var curr = items.map(function(a){
 	return [a.currency_code, a.price, a.title];
 });
@@ -1102,29 +1102,29 @@ items.forEach(function(a){
   }
 });
 
-
-var clown = items.map(function(a){
-  return a.materials;
-});
+// now trying to get the third question can get it to say "wood"but i want the program to be dynamic. worked uphill for over 8 hours on this. i want to make sure i understand this technique so ill ask you in class.
+// var clown = items.map(function(a){
+//   return a.materials;
+// });
   
 
-  var start = clown.forEach(function(a){
+//   var start = clown.forEach(function(a){
  
-    // a = materials[]
+//     // a = materials[]
 
-    for(i = 0; i < a.length; i ++)
-    {
-      if(a[i] == "wood"){
+//     for(i = 0; i < a.length; i ++)
+//     {
+//       if(a[i] == "wood"){
      
-      return a[i];
+//       return a[i];
 
-      }
-    }
+//       }
+//     }
 
      
   
   
-});
+// });
 
 
 
@@ -1136,11 +1136,11 @@ var clown = items.map(function(a){
 
 
 
-clown.indexOf("wood"[0,1,2,3]){
+// clown.indexOf("wood"[0,1,2,3]){
 
-return a;
+// return a;
 
-});
+// });
 
 
 
